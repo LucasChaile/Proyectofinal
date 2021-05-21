@@ -1,13 +1,34 @@
 body {
-  background-color: #B089B2; }
+  background-color: #F8F9F9; }
 
-h4 {
+h1 {
   text-align: center;
-  font-family: 'Roboto Slab', serif; }
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px; }
+
+h2 {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px; }
 
 h3 {
   font-family: 'Roboto Slab', serif;
-  font-size: 40px; }
+  font-size: 40px;
+  margin: 50px;
+  padding: 20px; }
+
+h4 {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  margin: 50px;
+  padding: 20px; }
+
+header {
+  background-color: white; }
+
+iframe {
+  margin: 50px; }
 
 .imagenfooter {
   width: 50px;
@@ -41,10 +62,10 @@ h3 {
   height: 600px; }
 
 .presentacion {
-  font-size: 50px;
+  font-size: 20px;
   font-family: 'Roboto Slab', serif;
   padding: 20px;
-  border: 5px;
+  border: 30px;
   margin: 20px;
   color: black; }
 
@@ -84,7 +105,7 @@ h3 {
   height: 900px; }
 
 .contacto {
-  height: 600px; }
+  height: 400px; }
 
 .redes {
   font-size: 30px;

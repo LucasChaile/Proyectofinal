@@ -10,20 +10,21 @@
 	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-	<link rel="stylesheet" href="../Css/estilo.css">
+	<link rel="stylesheet" href="../css/estilo.css">
 </head>
 </head>
 <body>
-	<div class="container title">
-		<div class="row">	
-			<div class="col-lg-12 col-xs-12">
-				<img src="../assets/Img/Logo.jpg" class="logo">
-				<blockquote class="blockquote text-center">
-					 <h1 class="mb-0">Quimica las manyulas.</h1>
-				</blockquote>
+	<header>
+		<div class="container title">
+			<div class="row">	
+				<div class="col-lg-12 col-xs-12 header">
+					<img src="../assets/Img/Logo.jpg" class="logo">
+					<blockquote class="blockquote text-center">
+						 <h1>Quimica las manyulas.</h1>
+					</blockquote>
 			</div>
 		</div>
-	</div>
+	</header>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		  <div class="container-fluid">
 		    <a class="navbar-brand" href="../index.html">Inicio</a>
@@ -50,31 +51,51 @@
 					</ul>
 				</main>
 			</div>
-		<section class="col-lg-12">
-			<div class="divcont">
-				<h2>Para mas informacion dejanos tu contacto</h2>
-				<form action="#" class="formcontacto">
-					<label for="Nombre">Nombre
-						<input type="text" name="Nombre">
-					</label>
-					<label for="Telefono">Telefono
-						<input type="text" name="Telefono">
-					</label>
-					<label for="Mail">Mail
-						<input type="text" name="Mail">
-					</label>
-					<label for= "sexo">Sexo
-						<select name="Sexo" id="">
-							<option value="Mujer">Mujer</option>
-							<option value="Hombre">Hombre</option>
-						</select>
-					</label>
-					<input type="Checkbox" name="Acepta" value="1">Quiero recibir informacion de novedades
-					<button type="submit" class="btn btn-outline-primary" value="ENVIAR">ENVIAR</button>
-					<button type="reset" class="btn btn-outline-secondary" value="RESETEAR">RESETEAR</button>
-				</form>
-			</div>
-		</section>
+			<H4>Dejanos tu contacto</H4>
+			<form>
+			  <div class="form-group row">
+			    <label for="inputEmail3" class="col-sm-2 col-form-label">Mail</label>
+			    <div class="col-sm-10">
+			      <input type="mail" class="form-control" id="inputEmail3" placeholder="Mail">
+			    </div>
+			  </div>
+			  <div class="form-group row">
+			    <label for="inputPassword3" class="col-sm-2 col-form-label">Telefono</label>
+			    <div class="col-sm-10">
+			      <input type="telefono" class="form-control" id="inputPassword3" placeholder="Telefono">
+			    </div>
+			  </div>
+			  <fieldset class="form-group">
+			    <div class="row">
+			      <legend class="col-form-label col-sm-2 pt-0">Motivo de consulta</legend>
+			      <div class="col-sm-10">
+			        <div class="form-check">
+			          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+			          <label class="form-check-label" for="gridRadios1">
+			            Formar parte de la empresa
+			          </label>
+			        </div>
+			        <div class="form-check">
+			          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+			          <label class="form-check-label" for="gridRadios2">
+			            Preguntas
+			          </label>
+			        </div>
+			        <div class="form-check ">
+			          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+			          <label class="form-check-label" for="gridRadios3">
+			            Sugerencias
+			          </label>
+			        </div>
+			      </div>
+			    </div>
+			  </fieldset>
+			  <div class="form-group row">
+			    <div class="col-sm-10">
+			      <button type="submit" class="btn btn-primary">Enviar</button>
+			    </div>
+			  </div>
+			</form>
 		</div>		
 		<footer>
 			<div class="container-fluid" >
