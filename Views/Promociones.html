@@ -25,7 +25,7 @@
 			</div>
 		</div>
 	</header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
 		  <div class="container-fluid">
 		    <a class="navbar-brand" href="../index.html">Inicio</a>
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,43 +42,112 @@
 		  </div>
 		</nav>
 		<main id="promosmain" class="Menu">
-			<H1>Promociones</H1>
-			<div class="list-group">
-			  <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-			    <div class="d-flex w-100 justify-content-between">
-			      <h5 class="mb-1">Promocion pack 5L</h5>
-			      <small>c/stock</small>
-			    </div>
-			    <p class="mb-1">Lavandina</p>
-			    <p class="mb-1">Suavizante</p>
-			    <p class="mb-1">Jabon liquido</p>
-			    <p class="mb-1">Concentrado para pisos</p>
-			    <small>Pack familiar</small>
-			  </a>
-			  <a href="#" class="list-group-item list-group-item-action " aria-current="true">
-			    <div class="d-flex w-100 justify-content-between">
-			      <h5 class="mb-1">Promocion pack 2L</h5>
-			      <small class="text-muted">c/stock</small>
-			    </div>
-			    <p class="mb-1">Lavandina</p>
-			    <p class="mb-1">Suavizante</p>
-			    <p class="mb-1">Jabon liquido</p>
-			    <p class="mb-1">Concentrado para pisos</p>
-			    <small>Pack familiar</small>
-			  </a>
-			  <a href="#" class="list-group-item list-group-item-action " aria-current="true">
-			    <div class="d-flex w-100 justify-content-between">
-			      <h5 class="mb-1">Promocion para mascotas</h5>
-			      <small class="text-muted">c/stock</small>
-			    </div>
-			    <p class="mb-1">Derribante para pulgas</p>
-			    <small class="text-muted">Animales</small>
-			  </a>
-			</div>
-		</main>
-		<section>
-			<img src="../assets/Img/Promociones.jpg">
-		</section> 
+        	<div class="col">
+	            <div class="row">
+	                <div class="col-12 col-md-6 col-lg-4">
+	                    <div class="card">
+	                        <div class="packjabonliquido" id="sale"></div>
+	                        <div class="card-body">
+	                            <h4 class="card-title">Pack jabon liquido x5</h4>
+	                            <p class="card-text">Pack familiar, contiene 5 jabones liquidos de 5L c/u. </p>
+	                            <div class="row">
+	                                <div class="col">
+	                                    <p class="btn btn-danger btn-block">$4000</p>
+	                                </div>
+	                                <div class="col">
+	                                    <a href="#" class="btn btn-success btn-block">Comprar</a>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="packlavandina" id="sale"></div>
+                        <div class="card-body">
+                            <h4 class="card-title" > Pack lavandina x2 </h4>
+                            <p class="card-text">Pack de lavandinas, 2 bidones de 5L c/u de lavandina liquida neutra. </p>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="btn btn-danger btn-block">$1500</p>
+                                </div>
+                                <div class="col">
+                                    <a href="#" class="btn btn-success btn-block">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="alcoholengel" id="sale"></div>
+                        <div class="card-body">
+                            <h4 class="card-title"> Pack alcohol en gel </h4>
+                            <p class="card-text">Pack de alcohol en gel neutro, incluye 3 recipientes de 410ml c/u.</p>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="btn btn-danger btn-block">$3000</p>
+                                </div>
+                                <div class="col">
+                                    <a href="#" class="btn btn-success btn-block">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="packblem" id="sale"></div>
+                        <div class="card-body">
+                            <h4 class="card-title"> Pack Blem </h4>
+                            <p class="card-text">Pack de limpieza para tus azulejos con el mejor cuidado. Contiene 6 unidades de 500ml c/u.</p>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="btn btn-danger btn-block">$3200</p>
+                                </div>
+                                <div class="col">
+                                    <a href="#" class="btn btn-success btn-block">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="packsuavizante" id="sale"></div>
+                        <div class="card-body">
+                            <h4 class="card-title"> Pack suavizante</h4>
+                            <p class="card-text">4 suavizantes de 3L c/u. Incluye fragancias: lavanda,primavera, rosas y floral. </p>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="btn btn-danger btn-block">$3000</p>
+                                </div>
+                                <div class="col">
+                                    <a href="#" class="btn btn-success btn-block">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="mopapromo" id="sale"></div>
+                        <div class="card-body">
+                            <h4 class="card-title"> Mopa</h4>
+                            <p class="card-text">Mopa de amplio tamañano, facilita la limpieza en todas las partes de tu hogar y se adapta para eliminar
+                            todas las bacterias.</p>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="btn btn-danger btn-block">$3500</p>
+                                </div>
+                                <div class="col">
+                                    <a href="#" class="btn btn-success btn-block">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </main>
 		<footer>
 			<div class="container-fluid" >
 				<div class="row itemfooter">

@@ -14,7 +14,7 @@ h2 {
 h3 {
   font-family: 'Roboto Slab', serif;
   font-size: 40px;
-  margin: 50px;
+  margin: 30px;
   padding: 20px; }
 
 h4 {
@@ -28,7 +28,13 @@ header {
   background-color: white; }
 
 iframe {
-  margin: 50px; }
+  margin: 30px;
+  padding: 20px; }
+
+#nav {
+  margin: 10px;
+  border-bottom: 10px solid white;
+}
 
 .imagenfooter {
   width: 50px;
@@ -70,13 +76,65 @@ iframe {
   color: black; }
 
 .imgindex4 {
-  height: 500px;
-  width: 600px; }
-
+  height: 650px;
+  width: 550px; 
+}
 .ListProductos {
   font-family: 'Roboto Slab', serif;
-  font-size: 25px; }
-
+  font-size: 25px; 
+}
+.packjabonliquido {
+  width: 600px;
+  height: 400px;
+  background: url(../assets/Img/jabonliquidoprom.jpg);
+}
+.packlavandina {
+  width: 600px;
+  height: 400px;
+  background: url(../assets/Img/lavandinapromo.jpg);
+}
+.alcoholengel {
+  width: 600px;
+  height: 400px;
+  background: url(../assets/Img/alcoholgelpromo.jpg);
+}
+.packblem{
+  width: 600px;
+  height: 400px;
+  background: url(../assets/Img/packblem.jpg);
+}
+.packsuavizante {
+  width: 600px;
+  height: 400px;
+  background: url(../assets/Img/Suavizantepromo.jpg);
+}
+.mopapromo {
+  width: 600px;
+  height: 400px;
+  background: url(../assets/Img/packmopa.jpg);
+}
+#sale:hover {
+  width: 600px;
+  height: 400px;
+  background: url(../assets/Img/sale.jpg);
+}
+.cardtext {
+  font-family: 'Roboto Slab', serif;
+  font-size: 15px;
+  text-align: justify; 
+}
+.card {
+  width: 600px: ;
+  height: 700px;
+  padding: 10px;
+}
+#formulario {
+  width: 800px;
+  height: 250px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid black;
+}
 .imgproductos {
   width: 100%; }
 
